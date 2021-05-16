@@ -1336,11 +1336,14 @@ top: 3%;
 	background-size: 220%;
 	background-position: center;
 	background-repeat: no-repeat;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
 }
 .actualites-card-div1{
 	width: 100%;
 	height: 30vh;
 	background-color: transparent;
+	transform: translateZ(20px);
 }
 .actualites-card-div2{
 	width: 100%;
@@ -1350,6 +1353,7 @@ top: 3%;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
+	transform: translateZ(20px);
 }
 .actualites-card-div2-div1{
 	position: relative;
@@ -1366,6 +1370,7 @@ top: 3%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transform: translateZ(40px);
 }
 .actualites-card-div2-div1-div1 p{
 	font-family: Poppins, sans-serif;
@@ -1381,6 +1386,7 @@ top: 3%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transform: translateZ(40px);
 }
 .actualites-card-div2-div1-div2 p{
 	font-family: Poppins, sans-serif;
@@ -1396,6 +1402,7 @@ top: 3%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transform: translateZ(40px);
 }
 .actualites-card-div2-div1-div3 p{
 	font-family: Poppins, sans-serif;
@@ -1439,6 +1446,96 @@ top: 3%;
 	transition: all 0.2s ease;
 }
 
+
+
+.sallesdeclasses-equipement{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.sallesdeclasses-equipement-tilt{
+	margin: 3vh;
+	width: 50vh;
+	height: 70vh;
+	background-color: transparent;
+	border-radius: 2vh;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	transition: all 0.2s ease;
+}
+.sallesdeclasses-equipement-tilt:hover{
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+}
+.sallesdeclasses-equipement-tilt-div1{
+	width: 100%;
+	height: 40vh;
+	border-radius: 2vh 2vh 0 0;
+	background-size: 150%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	transform: translateZ(20px);
+}
+.sallesdeclasses-equipement-tilt-div2{
+	width: 100%;
+	height: 30vh;
+	background-color: white;
+	border-radius: 0 0 2vh 2vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+	transform: translateZ(20px);
+}
+.sallesdeclasses-equipement-tilt-div2 p{
+	font-family: Poppins, sans-serif;
+	text-align: center;
+	font-size: 3.5vh;
+	color: #262626;
+	position: relative;
+	transform: translateZ(40px);
+}
+
+
+.poursuiteetude-main-tableau{
+	width: 100%;
+	background-color: transparent;
+}
+		.poursuiteetude-main-tableau-ligne{
+			width: 100%;
+			height: 8vh;
+			background-color: white;
+			border-top: #262626 0.1em solid;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.poursuiteetude-main-tableau-ligne-div1{
+			height: 8vh;
+			width: 100%;
+			background-color: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.poursuiteetude-main-tableau-ligne-div1-p{
+			font-family: Poppins, sans-serif;
+			font-size: 16px;
+			color: #262626;
+		}
+		.poursuiteetude-main-tableau-ligne-div1-p:hover{
+			font-family: Poppins, sans-serif;
+			font-size: 16px;
+			color: #262626;
+			text-decoration: underline;
+		}
 
 
 
